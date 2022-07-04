@@ -33,7 +33,7 @@ Executa aplicação em modo de desenvolvimento.
 Após execução do comando acima, abra a aplicação em http://localhost:3000 para visualizá-la em seu navegador. 
 
 ## Funcionamento
-### Ao iniciar a aplicação, digite um nome único na entrada de texto e depois clique em pesquisa.
+### Ao iniciar a aplicação, digite um nome único na entrada de texto e depois clique em pesquisar.
 ![Captura de Tela 2022-07-04 às 00 16 31](https://user-images.githubusercontent.com/83181304/177075816-16daef3f-5984-4db0-8285-fd07a14ce054.png)
 
 ### Ao digitar um nome, você terá o retorno do nome junto aos nomes dos países com maiores probabilidades de onde surgiram.
