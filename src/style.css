@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1567910640027-4029c4d8e9e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.content{
+  padding: 10px;
+  justify-content: space-evenly;
+}
+input {
+  width: 300px;
+  padding: 0.3rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333331;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  transition: border linear 0.2s;
+  
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: museo, Verdana, Ayuthaya, HanaMinBFont, serif;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: 0.8399999737739563px;
+  line-height: 45px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+  background-color: #000000;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+table {
+  background-color: oldlace;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 350px;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.alerta {
+  justify-self: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: red;
+  border-radius: 20px;
+  border: 1px red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.subfooter-p {
+  font-size: 15px;
+  padding: 0.45rem !important;
+  color: white;
+  
+}
