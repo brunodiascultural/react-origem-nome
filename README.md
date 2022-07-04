@@ -56,6 +56,6 @@ Arquivo com a função App, responsável pela organização da ordem de exibiç�
 ## index.js
 Arquivo responsável por renderizar a função App, que contém todos os componentes da aplicação, no navegador.
 ## Paises.js
-Arquivo responszeavel por renderizar uma tabela com as colunas país e probabilidade.
+Arquivo responsável por renderizar uma tabela com as colunas país e probabilidade.
 ## style.css
 Arquivo que contém estilizações dos componentes da aplicação.
