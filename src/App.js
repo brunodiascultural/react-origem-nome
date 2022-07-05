@@ -47,9 +47,9 @@ function App() {
   }
 
   return (
-    <div class="main">
+    <div className="main">
       <h1>Insira um nome para descobrir a origem dele.</h1>
-      <div class="content">
+      <div className="content">
         <input
           id="nome"
           type="text"
@@ -66,8 +66,8 @@ function App() {
       {!error && dados && paises && (
         <Paises dados={dados} paises={paises}></Paises>
       )}
-      <div class="card-footer">
-        <p class="card-footer-item subfooter-p">
+      <div className="card-footer">
+        <p className="card-footer-item subfooter-p">
           Bruno Dias  &copy; 2022
         </p>
       </div>
